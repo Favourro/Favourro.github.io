@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<style type="text/css">
+body {
+    background-color: mistyrose;
+}
+h1 {
+    color: darkblue;
+}
+</style>
+</head>
+
+<body>
+	
+	<h1> Sign- Up Form for a Shoe Account </h1>
+<p> This form is to purchase a shoe </p>
+	
+	
+<form action="https://handlers.education.launchcode.org/request-parrot" method="post">
+  <label for="firstname">First Name:</label>
+  <input name="firstname" type="text" required="required" id="firstname">
+	
+	<br> <br> 
+  <label for="lastname">Last Name:</label>
+	<input name="lastname" type="text" required="required" id="lastname">
+	
+	<br><br> 
+  <label for="username">Username:</label>
+	<input name="username" type="text" required="required" id="username" placeholder="6-10 words only" pattern="[A-Za-z]{6-10}">
+	<br><br> 
+	
+  <label for="password">Password</label>
+	<input name="password" type="password" required="required" id="password" placeholder="6-10 words only " pattern="[0-9A-Za-z]6-10">
+	<br><br> 
+	<label for="dob">Date of Birth</label>
+	<input name="dob" type="date" required="required" id="dob">
+	<br><br> 
+  <label for="phonenumber">Phone Number:</label>
+	<input name="phonenumber" type="number" required="required" id="phonenumber">
+	<br><br> 
+  <label for="email">Email:</label>
+	<input name="email" type="email" required="required" id="email">
+	<br><br> 
+  <label for="personalurl">Personal Website:</label>
+	<input name="personalurl" type="url" id="personalurl">
+	<br><br> 
+	<p> What type of shoes are you interested in? </p>
+  <label for="nike">Nike</label>
+	<input name="nike" type="checkbox" id="nike">
+	<br> 
+  <label for="converse"> Converse</label>
+	<input name="converse" type="checkbox" id="converse">
+	<br>
+  <label for="sketchers">Sketchers</label>
+	<input name="sketchers" type="checkbox" id="sketchers">
+	<br>
+  <label for="uggs">Uggs</label>
+  <input name="uggs" type="checkbox" id="uggs">
+	<br> 
+	<p> Where did you hear abour our site?</p>
+  <label>Instagram</label>
+	<input name="instagram" type="radio">
+	<label>Facebook</label>
+	<input name="facebook" type="radio">
+	<label>Tiktok</label>
+	<input name="tiktok" type="radio">
+	<label>Google</label>
+	<input name="google" type="radio">
+	<br><br> 
+  <input type="submit"><input type="reset">
+  </form>
+	
+	
+	
+	
+</body>
+</html>
